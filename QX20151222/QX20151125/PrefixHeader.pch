@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  QX20151125
+//
+//  Created by qianfeng on 15/11/25.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+
+#ifndef QX20151125_PrefixHeader_pch
+#define QX20151125_PrefixHeader_pch
+
+#define SCREEN_SIZE [[UIScreen mainScreen] bounds].size
+#define Tab_Height 49
+#define Nav_Bar_Height 44
+#define MainItemCell_Height 120
+#define kDetailCell_Height 220
+#define ChannelCell_Height 120
+#define PublicCell_Height 150
+#define ResearchCell_Height 120
+
+#import "UIImageView+WebCache.h"
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import "FMDatabase.h"
+#import "DBManager.h"
+#import "JHRefresh.h"
+#import "MMProgressHUD.h"
+#import "UMSocial.h"
+
+#define MyLog(...) NSLog(__VA_ARGS__)
+
+
+
+
+#endif
